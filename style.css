@@ -1,0 +1,139 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.header, .nav, .image-container {
+    background-color: #333333; /* Set background color to black */
+    color: white; /* Set text color to white */
+    width: 100%; /* Full width */
+    padding: 0px 0; /* Add padding for spacing */
+}
+
+.header {
+    display: flex;
+    margin-bottom: 0px;
+    justify-content: space-between;
+    align-items: center; /* Align items to the top */
+}
+
+.column-header{
+    flex:1;
+    width: 33%;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    padding: 0 0px;
+    box-sizing: border-box;
+}
+
+.column-header-main{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0px;
+    justify-content: center;
+    align-items: center; /* Align items to the top */
+}
+
+.column-header img {
+    max-width: 180px; /* Adjust image size as needed */
+    height: auto;
+}
+
+.header-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header h1, .header p {
+    margin: 0; /* Remove default margin */
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0;
+}
+
+.image-container a img {
+    max-width: 20px; /* Adjust size as needed */
+    height: auto;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Adjust spacing between links */
+    margin-top: 0px;
+}
+
+.nav a {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Use the default text color */
+    transition: box-shadow 0.1s ease
+}
+
+.nav ul {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0; /* Remove default padding */
+    display: flex;
+    gap: 20px; /* Adjust spacing between links */
+}
+
+.nav li {
+    margin: 0; /* Remove default margin */
+}
+
+.nav a:hover {
+    box-shadow: 0 0 0 10px rgba(34, 34, 34, 1);
+    background-color: #222222; /* Optional: Add a background color for better visibility */
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+.column {
+    width: 48%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.column h2 {
+    text-align: center;
+}
+.main-content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px;
+    text-align: left;
+}
+
+.main-content img {
+    max-width: 200px; /* Adjust image size as needed */
+    height: auto;
+}
+
+.main-content .text {
+    flex: 1;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f1f1f1;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    font-size: 0.9em;
+}
+a {
+    color: #555555; /* Soft blue color */
+    text-decoration: none; /* Remove underline */
+}
+
+a:hover {
+    color: #555555; /* Lighter blue on hover */
+    text-decoration: none; /* Optional: underline on hover */
+}
